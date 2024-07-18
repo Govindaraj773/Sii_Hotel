@@ -1,0 +1,64 @@
+
+
+/* menu css code */
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    position: relative;
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+  
+  .submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  }
+  
+  .submenu li {
+    padding: 10px 20px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .submenu li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  
+  /* Slide-Show CSS code */
+  
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  
+  .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+  }
+  
+  .mySlides {
+      display: none;
+  }
+  
+  .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+  }
+  
